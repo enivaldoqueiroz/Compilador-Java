@@ -1,0 +1,37 @@
+Program testando;
+
+    Integer i1, i2, i3;
+    String s1, s2, s3;
+    Integer i4, i5, i6;
+    Real r1, r2, r3, r4;
+    Begin
+        Begin
+            i4 := 10;
+            i4 := 20;
+            i2 := 30;
+            R1 := 5;
+            I5 := i4;
+            R2 := r1;
+            R3 := i1 + r1;
+            R4 := (i1/10) * (R1 + i2);
+            R4 := (R4) + ((i1/15) * (r1 + i2));
+            if (5 > r2) then
+                All(S1, S2);
+            else
+                Begin
+                    while(r2 < 100) do
+                        R2 := r2 + 1;
+                    repeat
+                        begin
+                            r2 := r2 + 2;
+                            r3 := r3 + 3;
+                        end ;
+                    until ((r1 = 20) or (r3 < 30));
+                end;
+            if((r1 <> 20) or (i1 <= 30) or (r3 > 30) or (i1 >= 0)) then
+                Begin
+                    R2 := r3 + 1;
+                end;
+            All(s1,s2);
+        end;
+    end.

@@ -1,0 +1,42 @@
+Program  teste; 
+
+Integer  i1, i2, i3 ;
+String s1, s2, s3;
+Integer i4, i5, i6;
+Real r1, r2, r3, r4;
+
+Begin 
+	Begin 
+		I4 := 10;
+		I4 := 20;
+		I2  := 30;
+		R1 := 1.5;
+		I5 := i4;			{so pra testar}
+		R2 := r1;
+		R3 := i1 + r1;
+		R4 := (i1 / 10) * (r1 + i2);
+		R4 := (r4) + ((i1 / 15.2) * (r1 + i2));
+					{so pra testar}
+		if (5 > r2) then {22}
+			All (s1, s2);
+		else {33}
+		Begin
+			while (r2 < 100) do {26}
+				R2 := r2 + 1;
+			repeat
+			Begin
+				R2 := r2 + 2;
+				R3 := r3 + 3;
+			End;
+			until ( (r1 = 20) or (r3 < 30)) ;
+	{so  pra  testar}
+		End ;
+
+		if ((r1 <> 20) or (i1 <= 30) or (r3 > 30.5) or (i1 >= 0)) then 
+		Begin
+			R2 := r3 + 1;
+		End;
+	{so pra testar}
+		All (s1, s2);
+	End;
+End.
